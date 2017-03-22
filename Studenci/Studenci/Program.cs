@@ -32,4 +32,14 @@ namespace Studenci
             }
         }
     }
+
+    class Student
+    {
+        public string Nazwisko;
+        public int ZIOP, SO, Grafika, MySql;
+
+        public Student()
+        {
+        }
+    }
 }
