@@ -12,4 +12,19 @@ namespace Studenci
         {
         }
     }
+
+    class Student
+    {
+        public string imie;
+        public int ZIOP, SO, Grafika, MySql;
+
+        public Student(string imie, int ziop, int so, int graf, int mysql)
+        {
+            this.imie = imie;
+            ZIOP = ziop;
+            SO = so;
+            Grafika = graf;
+            MySql = mysql;
+        }
+    }
 }
